@@ -32,10 +32,9 @@ import pic29 from "../images/album/29.jpg";
 import svg0 from "../images/about/0.svg";
 import svg1 from "../images/about/1.svg";
 import svg2 from "../images/about/2.svg";
-// import svg3 from "../images/about/3.svg";
-// import svg4 from "../images/about/4.svg";
-// import svg5 from "../images/about/5.svg";
-// import svg6 from "../images/about/6.svg";
+import svg3 from "../images/about/3.svg";
+import svg4 from "../images/about/4.svg";
+import svg5 from "../images/about/5.svg";
 
 export const menu = [
   {
@@ -209,31 +208,32 @@ export const cards = [
   {
     img: svg0,
     question: "嘎逼是誰？",
-    answer: "嘎逼是我們養了X年的狗狗～",
+    answer: "嘎逼是我們的狗狗～超可愛",
   },
   {
     img: svg1,
-    question: "你們在一起多久了？",
-    answer: "我們在一起X年了，現在 To Be Continued",
+    question: "在一起多久了？",
+    answer: "2022年9月滿11年，現在 To Be Continued",
   },
   {
     img: svg2,
-    question: "你們第一次見面",
-    answer: "我們。。。。",
+    question: "初見面",
+    answer: "我們是因為打工認識的",
   },
   {
-    img: svg0,
-    question: "嘎逼是誰？～",
-    answer: "嘎逼是我們養了X年的狗狗～",
+    img: svg3,
+    question: "第一次一起出國",
+    answer:
+      "我們去了東京，住在人型町的飯店9天，也是唯一一次去日本玩沒有換，之後只要去日本大概要1-2天就要換飯店，因為新郎很愛住不同的新飯店 XD",
   },
   {
-    img: svg0,
-    question: "嘎逼是誰？～",
-    answer: "嘎逼是我們養了X年的狗狗～",
+    img: svg4,
+    question: "日本必去的地方",
+    answer: "唐吉軻德～因為新郎熱愛唐吉軻德",
   },
   {
-    img: svg0,
-    question: "嘎逼是誰？～",
-    answer: "嘎逼是我們養了X年的狗狗～",
+    img: svg5,
+    question: "我們第一次",
+    answer: "我們第一次戀愛就結婚♥",
   },
 ];
