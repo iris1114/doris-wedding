@@ -7,11 +7,17 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import Title from "../../components/Title";
 import { Reveal } from "react-awesome-reveal";
 import { fadeInUp } from "../../utils/styles";
+import { DEVICE } from "../../utils/device";
 
 const StyledGallery = styled.div`
   max-width: 1400px;
   margin: auto;
   padding: 0px 15px;
+  padding-top: 70px;
+
+  @media ${DEVICE.tablet} {
+    padding-top: 150px;
+  }
 `;
 
 const GallerySection = () => {

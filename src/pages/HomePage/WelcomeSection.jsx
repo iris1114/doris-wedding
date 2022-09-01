@@ -12,7 +12,7 @@ const StyledWelcom = styled.div`
     max-width: 1200px;
     margin: auto;
     z-index: 1;
-    padding: 100px 0px;
+    padding: 100px 0px 50px;
 
     @media ${DEVICE.tablet} {
       width: 50%;
@@ -37,6 +37,7 @@ const StyledWelcom = styled.div`
 
     .info {
       margin-top: 50px;
+      line-height: 30px;
 
       p {
         margin-bottom: 30px;
@@ -44,7 +45,7 @@ const StyledWelcom = styled.div`
       }
 
       .map {
-        margin-top: 10px;
+        margin-top: 20px;
       }
 
       .btn {
@@ -86,8 +87,10 @@ const StyledWelcom = styled.div`
     &.flower1 {
       right: 0px;
       bottom: 0px;
+      display: none;
 
       @media ${DEVICE.tablet} {
+        display: block;
         right: 0px;
         bottom: 0px;
       }
@@ -95,7 +98,7 @@ const StyledWelcom = styled.div`
 
     &.flower2 {
       right: 0px;
-      bottom: 250px;
+      bottom: 200px;
 
       @media ${DEVICE.tablet} {
         right: 0px;

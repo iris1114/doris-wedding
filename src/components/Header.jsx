@@ -13,27 +13,37 @@ const Header = () => {
     }
   };
 
-  const closeMobileMenu = () => {
-    setIsOpen(false);
-  };
-
   const getOpenClass = () => {
     if (isOpen) {
       return "open";
     }
   };
 
+  const scrollTo = (id) => {
+    console.log(id);
+    const element = document.getElementById(id);
+    console.log({ element });
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
+    setIsOpen(false);
+  };
+
   return (
     <StyledHeader>
       <div className={`container header ${getOpenClass()}`}>
         <StyledLogo>
-          <div> Tim ❤ Doris</div>
+          <a href="/">Tim ♡ Doris</a>
         </StyledLogo>
         <StyledNav className="nav m-none">
           <div className="nav__ul">
             {menu.map((element, index) => {
               return (
-                <div className="nav__li" key={index} onClick={closeMobileMenu}>
+                <div
+                  className="nav__li"
+                  key={index}
+                  onClick={() => scrollTo(element.id)}
+                >
                   <div className={`nav__link `} to={element.pathname}>
                     {element.title}
                   </div>
@@ -120,6 +130,7 @@ const StyledLogo = styled.div`
   z-index: 2;
   padding: 25px 20px 20px;
   color: ${COLOR.darkPink};
+  cursor: pointer;
 
   @media ${DEVICE.tablet} {
     width: 180px;

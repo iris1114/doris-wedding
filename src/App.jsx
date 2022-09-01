@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HomePage from "./pages/HomePage";
 
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Header />
       <HomePage />
+      <Footer />
     </div>
   );
 };

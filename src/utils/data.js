@@ -29,18 +29,26 @@ import pic27 from "../images/album/27.jpg";
 import pic28 from "../images/album/28.jpg";
 import pic29 from "../images/album/29.jpg";
 
+import svg0 from "../images/about/0.svg";
+import svg1 from "../images/about/1.svg";
+import svg2 from "../images/about/2.svg";
+// import svg3 from "../images/about/3.svg";
+// import svg4 from "../images/about/4.svg";
+// import svg5 from "../images/about/5.svg";
+// import svg6 from "../images/about/6.svg";
+
 export const menu = [
-  {
-    title: "Our Story",
-    id: "story",
-  },
-  {
-    title: "Gallery",
-    id: "gellery",
-  },
   {
     title: "Location",
     id: "location",
+  },
+  {
+    title: "About Us",
+    id: "about",
+  },
+  {
+    title: "Gallery",
+    id: "gallery",
   },
 ];
 
@@ -194,5 +202,38 @@ export const photos = [
     src: pic29,
     width: 3,
     height: 2,
+  },
+];
+
+export const cards = [
+  {
+    img: svg0,
+    question: "嘎逼是誰？",
+    answer: "嘎逼是我們養了X年的狗狗～",
+  },
+  {
+    img: svg1,
+    question: "你們在一起多久了？",
+    answer: "我們在一起X年了，現在 To Be Continued",
+  },
+  {
+    img: svg2,
+    question: "你們第一次見面",
+    answer: "我們。。。。",
+  },
+  {
+    img: svg0,
+    question: "嘎逼是誰？～",
+    answer: "嘎逼是我們養了X年的狗狗～",
+  },
+  {
+    img: svg0,
+    question: "嘎逼是誰？～",
+    answer: "嘎逼是我們養了X年的狗狗～",
+  },
+  {
+    img: svg0,
+    question: "嘎逼是誰？～",
+    answer: "嘎逼是我們養了X年的狗狗～",
   },
 ];
