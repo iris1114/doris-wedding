@@ -1,3 +1,11 @@
+/*
+ * @Author: iris.ilinke@gmail.com
+ * @Date: 2022-08-31 22:23:14
+ * @LastEditors: iris.ilinke@gmail.com
+ * @LastEditTime: 2022-09-02 02:41:47
+ * @FilePath: /wedding/src/pages/HomePage/AboutSection.jsx
+ * @Description:
+ */
 import { Reveal } from "react-awesome-reveal";
 import styled from "styled-components";
 import Card from "../../components/Card";
@@ -57,6 +65,16 @@ const StyledAbout = styled.div`
       margin: auto;
       justify-content: space-around;
       margin-top: 50px;
+
+      &:nth-child(3n + 1) {
+        display: none;
+        // .overlay {
+        //   .text {
+        //     font-size: 11px;
+        //     line-height: 15px;
+        //   }
+        // }
+      }
     }
   }
 `;

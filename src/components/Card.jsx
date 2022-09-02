@@ -53,6 +53,17 @@ const StyledCard = styled.div`
   &:hover .overlay {
     transform: scale(1);
   }
+
+  @media (max-width: 640px) {
+    &:nth-of-type(4) {
+      .overlay {
+        .text {
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+    }
+  }
 `;
 
 const Card = ({ meta }) => {
